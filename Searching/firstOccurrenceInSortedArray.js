@@ -10,7 +10,7 @@
  * @returns {number} - The index of the first occurrence of `x` in `arr`.
  *                     Returns -1 if `x` is not found in the array.
  */
-function firstOccurrence(arr, x) {
+export function firstOccurrence(arr, x) {
   let low = 0;
   let high = arr.length - 1;
   while (low <= high) {

@@ -12,7 +12,7 @@
  * @param {number} x - The number to find the last occurrence of.
  * @return {number} The index of the last occurrence of x in arr. Returns -1 if x is not found.
  */
-function lastOccurrence(arr, x) {
+export function lastOccurrence(arr, x) {
   const n = arr.length - 1;
   let low = 0;
   let high = n;

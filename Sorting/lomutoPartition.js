@@ -5,7 +5,7 @@
  * @param {number} h - The high index of the array.
  * @returns {number} - The updated index of the pivot element after partitioning.
  */
-function lomutoPartition(arr, l, h) {
+export function lomutoPartition(arr, l, h) {
   let pivot = arr[h];
   let i = l - 1;
   for (let j = l; j <= h - 1; j++) {

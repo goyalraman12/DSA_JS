@@ -52,3 +52,5 @@ function merge(arr1, arr2, n, m) {
   }
   return [...arr1, ...arr2];
 }
+
+console.log('test')
